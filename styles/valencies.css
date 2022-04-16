@@ -1,0 +1,47 @@
+@media screen and (orientation: portrait) {
+  #wrapper {
+    margin-top: 20vh;
+    flex-direction: column;
+  }
+
+  #wrapper button {
+    margin: 4vh auto 4vh auto;
+    font-size: 3.2vh;
+  }
+}
+
+@media screen and (orientation: landscape) and (min-width: 1201px) {
+    #wrapper {
+    margin-top: 25vh;
+    flex-direction: row;
+  }
+
+  #wrapper button {
+    margin: 2.5vh;
+    font-size: 3.2vh;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-width: 1200px) {
+  #wrapper {
+    margin-top: 20vh;
+    flex-direction: column;
+  }
+  #wrapper button {
+    margin: 4vh auto 4vh auto;
+    font-size: 3.2vh;
+  }
+}
+
+#wrapper button {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    vertical-align: top;
+    width: 60%;
+    padding: 2vh;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+}

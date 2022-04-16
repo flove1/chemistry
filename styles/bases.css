@@ -1,0 +1,15 @@
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 20vh auto 20vh auto;
+}
+
+#wrapper button {
+    display: block;
+    background: white;
+    border-radius: 10px;
+    font-size: 3.2vh;
+    margin-bottom: 4vh;
+    height: 12vh;
+}

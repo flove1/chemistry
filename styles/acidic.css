@@ -1,0 +1,41 @@
+#wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 2vh;
+    grid-column-gap: 2vh;
+    width: 100%;
+    margin: 2vh auto;
+    border-spacing: 0.7vh;
+    justify-content: center;
+}
+
+.compound {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    background-color: #3d5d5a;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3vh;
+    width: 100%;
+    height: 5vh;
+    padding: 2vh 0 2vh 0;
+}
+
+select {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3vh;
+    height: 9vh;
+}
+
+#check {
+    vertical-align: top;
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    font-size: 3vh;
+    margin: 6vh auto;
+    margin-bottom: 0;
+    width: 35vw;
+    height: 7vh;
+}

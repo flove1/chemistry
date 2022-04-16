@@ -1,0 +1,68 @@
+@media screen and (orientation: portrait) {
+  #wrapper {
+    flex-direction: column;
+  }
+  #wrapper button {
+    width: 16vh;
+    height: 10vh;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  #wrapper {
+    flex-direction: row;
+    margin-top: 10vh;
+  }
+  #wrapper button {
+    width: 16vh;
+    height: 16vh;
+  }
+}
+
+#main #title {
+  background-color: #3d5d5a;
+  font-size: 6vh;
+  width: 25vh;
+  height: 10vh;
+  text-align: center;
+  margin: 3vh auto;
+}
+
+#answers {
+    display: flex;
+    flex-direction: column;
+    background-color: #3d5d5a;
+    text-align: right;
+    width: 26vh;
+    padding-right: 2vh;
+    margin-left: auto;
+}
+
+    #answers #correct {
+        color: #00ff00;
+    }
+
+    #answers #wrong {
+        color: #ff0000;
+    }
+
+#answer {
+    background-color: #3d5d5a;
+    font-size: 4vh;
+    text-align: center;
+    width: 14vh;
+    height: 6vh;
+    margin: 3vh auto;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#wrapper button {
+    display: block;
+    text-align: center;
+    font-size: 3.5vh;
+    margin: 2vh auto 2vh auto;
+}

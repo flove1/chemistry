@@ -1,0 +1,82 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+@media screen and (orientation: portrait) {
+  header label {
+    display: block;
+    position: absolute;
+    font-size: 3.5vh;
+    background: green;
+    height: 7%;
+    width: 13%;
+  }
+
+  header #text {
+    display: inline;
+    vertical-align: middle;
+  }
+
+  header img {
+    display: none;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  header label {
+    display: none;
+  }
+
+  header img {
+    display: inline;
+    height: 80%;
+    width: auto;
+    background: transparent;
+    vertical-align: middle;
+  }
+}
+
+header {
+    background-color: #2c4c49;
+    text-align: center;
+    height: 7%;
+    width: 100%;
+}
+
+header #text {
+  display: inline;
+  vertical-align: middle;
+}
+
+footer {
+    background-color: #2c4c49;
+    text-align: center;
+    height: 7%;
+    width: 100%;
+}
+
+html,body {
+    background-color: #4d7471;
+    color: #ffffff;
+    font-size: 3.5vh;
+    user-select: none;
+    height: 100%;
+    margin: 0;
+}
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 86%;
+  background-color: #3d5d5a;
+}
+
+#sidebar button {
+  display: block;
+  font-size: 3vh;
+  width: 90%;
+  color: black;
+  background: white;
+  border-radius: 10px;
+  height: 9vh;
+  margin: 1.5vh 5% 1.5vh 5%;
+}

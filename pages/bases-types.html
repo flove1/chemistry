@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <title>Билингвальный тренажёр по химии</title>
+    <meta charset="utf-8">
+    <link href="../styles/bases-types.css" rel="stylesheet">
+    <link href="../styles/font.css" rel="stylesheet">
+    <link href="../styles/decor.css" rel="stylesheet"/>
+</head>
+<body>
+  <header>
+    <input type="checkbox" id="toggle" autocomplete="off"/>
+    <label for="toggle">☰</label>
+    <img src="../images/Icon.png">
+    <div id="text">Билингвальный тренажёр</div>
+    <img src="../images/Icon.png">
+  </header>
+  <div id="content">
+    <nav id="sidebar">
+      <button onclick="window.location.href = 'main.html'">Главное меню</button>
+      <button onclick="window.location.href = 'elements.html'">Название элементов</button>
+      <button onclick="window.location.href = 'pronunciation.html'">Произношение элементов</button>
+      <button onclick="window.location.href = 'valencies.html'">Валентности</button>
+      <button onclick="window.location.href = 'compounds-and-mixtures.html'">Вещества и смеси</button>
+      <button onclick="window.location.href = 'fuses.html'">Типы связей</button>
+      <button onclick="window.location.href = 'compounds.html'">Классификация вещества</button>
+    </nav>
+    <div id="main">
+      <div id="answers">
+        <div id="correct">Correct answers: 0</div>
+        <div id="wrong">Wrong answers: 0</div>
+      </div>
+      <div id="title"></div>
+      <div id="answer"></div>
+      <div id="wrapper">
+        <button type="button">Растворимое</button>
+        <button type="button">Нерастворимое</button>
+        <button type="button">Малорастворимое</button>
+      </div>
+    </div>
+  </div>
+  <footer></footer>
+  <script src="../scripts/header.js"></script>
+  <script src="../scripts/bases-types.js"></script>
+</body>
+</html>

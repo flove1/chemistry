@@ -1,0 +1,38 @@
+@media screen and (orientation: portrait) {
+  #wrapper button {
+    font-size: 3.5vw;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  #wrapper button {
+    font-size: 2.5vw;
+  }
+}
+
+.tile1 {
+    background-color: white;
+}
+
+.tile2 {
+    background-color: yellow;
+}
+
+    .tile1:disabled, .tile1[disabled], .tile2:disabled, .tile2[disabled] {
+        color: black;
+        background-color: gray;
+    }
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+#wrapper button {
+    vertical-align: top;
+    text-align: center;
+    width: auto;
+    height: 10vh;
+    margin: 5px;
+    padding: 0;
+}

@@ -1,0 +1,93 @@
+#main #title {
+  background-color: #3d5d5a;
+  font-size: 6vh;
+  width: 12vh;
+  height: 10vh;
+  text-align: center;
+  margin: 3vh auto;
+}
+#answers {
+  display: flex;
+  flex-direction: column;
+  background-color: #3d5d5a;
+  text-align: right;
+  width: 26vh;
+  padding-right: 2vh;
+  margin-left: auto;
+}
+
+  #answers #correct {
+    color: #00ff00;
+  }
+
+  #answers #wrong {
+    color: #ff0000;
+  }
+.unpressed {
+    color: black;
+    border-color: white;
+    background-color: white;
+}
+
+.pressed {
+    color: black;
+    border-color: darkslategray;
+    background-color: #999999;
+}
+
+.correct {
+    background-color: green;
+    border-color: darkgreen;
+}
+
+.wrong {
+    background-color: red;
+    border-color: darkred;
+}
+
+.needed {
+    background-color: yellow;
+    border-color: #999900;
+}
+
+#check {
+    display: block;
+    font-size: 3.5vh;
+    width: 35vh;
+    margin: 5vh auto;
+}
+
+#wrapper {
+    display: -ms-grid;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-gap: 2vh;
+    margin: 6vh auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+#row1 {
+  display: flex;
+}
+#row2 {
+  display: flex;
+  margin-left: 12.5%;
+}
+
+#wrapper button {
+  font-size: 3.5vh;
+  width: 9vh;
+  height: 9vh;
+  margin: 0 1vh 1vh 1vh;
+}
+
+#answer {
+    background-color: #3d5d5a;
+    font-size: 4vh;
+    text-align: center;
+    width: 14vh;
+    height: 6vh;
+    margin: 3vh auto;
+}

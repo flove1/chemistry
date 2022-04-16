@@ -1,0 +1,16 @@
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin: 10vh auto 10vh auto;
+}
+
+#wrapper button {
+    display: block;
+    background: white;
+    border-radius: 10px;
+    font-size: 3vh;
+    margin-bottom: 4vh;
+    height: 12vh;
+}

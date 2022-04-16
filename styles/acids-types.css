@@ -1,0 +1,36 @@
+#check {
+    display: block;
+    font-size: 3.5vh;
+    width: 20vh;
+    height: 8vh;
+    margin: 1vh auto 0 auto;
+    padding: 1vh;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns:  32.66% 32.66% 32.66%;
+    grid-gap: 1%;
+    text-align: center;
+    justify-content: center;
+    height: 36.5vh;
+}
+
+#dragIn {
+    background-color: #3d5d5a;
+}
+
+#widget {
+    background-color: #3d5d5a;
+    height: 31vh;
+    margin-top: 1%;
+}
+
+.item {
+    margin: auto 0;
+    height: 6vh;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+}
